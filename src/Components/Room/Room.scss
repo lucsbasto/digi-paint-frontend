@@ -34,7 +34,14 @@
     letter-spacing: .5px;
     font-size: 1.2em;
     transform: translate(0, 50%);
+    cursor: pointer;
   }
+
+  button:disabled{
+    opacity: 0.6;
+    cursor: default;
+  }
+
 }
 
 #result>div{
@@ -50,6 +57,7 @@
     margin: 0 auto -20px;
     font-size: 1.5em;
     padding: 5px 20px;
+    color: #44295e;
     background-color: white;
     transform: translate(0 ,-50%);
   }
@@ -61,7 +69,6 @@
     vertical-align: middle;
   }
 }
-
 
 @media screen and (max-width: 720px){
   #walls .box-form{
@@ -81,29 +88,4 @@
       transform: none;
     }
   }
-}
-
-.color-1{
-  color: #fe5e07;
-}
-.bg-1{
-  background-color: #fe5e07;
-}
-.color-2{
-  color: #fec907;
-}
-.bg-2{
-  background-color: #fec907;
-}
-.color-3{
-  color: #a0cc41;
-}
-.bg-3{
-  background-color: #a0cc41;
-}
-.color-4{
-  color: #00a2a2;
-}
-.bg-4{
-  background-color: #00a2a2;
 }
